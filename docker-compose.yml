@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  dev-redis:
+    container_name: dev-redis
+    image: redis:alpine3.20
+    ports:
+      - 6379:6379
+
+  event-booking:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.event-booking
+    env_file:
+      - .env.local
+    ports:
+      - 3000:3000
+    depends_on:
+      - dev-redis
+    environment:
+      - NEXT_PUBLIC_PORT=3000
+      - NEXT_PUBLIC_REDIS_HOST=dev-redis
+
+  admin-panel:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.admin-panel
+    env_file:
+      - .env.admin.local
+    ports:
+      - 4000:3000
+    depends_on:
+      - dev-redis
+    environment:
+      - NEXT_PUBLIC_PORT=4000
+      - NEXT_PUBLIC_REDIS_HOST=dev-redis
