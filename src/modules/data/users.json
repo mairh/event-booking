@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user001",
+      "password": "Password123!",
+      "name": "User1",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "username": "user002",
+      "password": "PassWord321!",
+      "name": "User2",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "user003_admin",
+      "password": "Adminpass123!",
+      "name": "Admin3",
+      "role": "admin"
+    },
+    {
+      "id": "4",
+      "username": "user004",
+      "password": "AnotherPass321!",
+      "name": "User4",
+      "role": "user"
+    },
+    {
+      "id": "5",
+      "username": "user005",
+      "password": "Pass123!word",
+      "name": "User5",
+      "role": "user"
+    }
+  ]
+}

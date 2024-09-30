@@ -1,0 +1,4 @@
+# Ignoring generated files
+./sanity.types.ts
+
+src/app/(blog)/

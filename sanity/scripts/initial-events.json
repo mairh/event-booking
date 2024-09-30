@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "1",
+    "title": "Event 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor libero non justo tincidunt, ac facilisis nulla euismod.",
+    "startDate": "2024-10-15T09:00:00Z",
+    "endDate": "2024-10-15T17:00:00Z",
+    "location": "Tokyo, Japan",
+    "coverImage": {
+      "asset": {
+        "_ref": "image-72e30399c3f73e75f40d6097adfeef4e9f2412f3-9520x6328-jpg",
+        "_type": "reference"
+      },
+      "alt": "Banner image for event 1"
+    }
+  },
+  {
+    "_id": "2",
+    "title": "Event 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.",
+    "startDate": "2024-11-01T18:00:00Z",
+    "endDate": "2024-11-01T21:00:00Z",
+    "location": "New York, USA",
+    "coverImage": {
+      "asset": {
+        "_ref": "image-72e30399c3f73e75f40d6097adfeef4e9f2412f3-9520x6328-jpg",
+        "_type": "reference"
+      },
+      "alt": "Banner image for event 2"
+    }
+  },
+  {
+    "_id": "3",
+    "title": "Event 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Nulla facilisi.",
+    "startDate": "2024-11-10T11:00:00Z",
+    "endDate": "2024-11-12T19:00:00Z",
+    "location": "Berlin, Germany",
+    "coverImage": {
+      "asset": {
+        "_ref": "image-72e30399c3f73e75f40d6097adfeef4e9f2412f3-9520x6328-jpg",
+        "_type": "reference"
+      },
+      "alt": "Banner image for event 3"
+    }
+  },
+  {
+    "_id": "4",
+    "title": "Event 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "startDate": "2024-12-05T17:00:00Z",
+    "endDate": "2024-12-05T22:00:00Z",
+    "location": "Warsaw, Poland",
+    "coverImage": {
+      "asset": {
+        "_ref": "image-72e30399c3f73e75f40d6097adfeef4e9f2412f3-9520x6328-jpg",
+        "_type": "reference"
+      },
+      "alt": "Banner image for event 4"
+    }
+  },
+  {
+    "_id": "5",
+    "title": "Event 5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+    "startDate": "2024-12-20T08:00:00Z",
+    "endDate": "2024-12-20T12:00:00Z",
+    "location": "Oslo, Norway",
+    "coverImage": {
+      "asset": {
+        "_ref": "image-72e30399c3f73e75f40d6097adfeef4e9f2412f3-9520x6328-jpg",
+        "_type": "reference"
+      },
+      "alt": "Banner image for event 5"
+    }
+  }
+]
